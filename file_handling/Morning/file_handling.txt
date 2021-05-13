@@ -1,0 +1,44 @@
+
+Files:
+    Files are named locations on disk to store related information.
+    They are used to permanently store data in a non-volatile memory (e.g. hard disk)
+
+- file:
+- DB - structuring and permanent storage
+
+file.csv
+file.txt
+
+steps:
+    - Open a File: open()
+    - Perform Operation(Read or write)
+    - Close the file: close()
+
+
+
+mode:
+    - r(read): default
+    - w(write): 
+        * Open a file for writing.
+        * Creates a new file if it doesn't exists.
+        * Clears the content of the file it it exists
+    - a(append):
+        * Opens a file for appending at the end of the file.
+        * Creates a file if it doesn't exists.
+
+
+open("file", "mode")
+
+- file.read(n): reads a file
+- file.readable(): return True/False 
+- file.readline(): single line
+- file.readlines()
+
+
+with(keyword)
+
+Writing Files
+- file.write(): 
+
+
+append

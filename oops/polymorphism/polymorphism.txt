@@ -1,0 +1,16 @@
+Polymorphism:
+    - Consider the topic of Polymorphism optional.
+    - You won't really use use it untill much later in your Python Career.
+
+    
+    - Ability to take various form
+
+    - function with same name but functioning differently.
+
+
+    - Polymorphism: Many Form 
+
+Duck-Typing: If it looks like a duck, swims like a duck and quacks like a duck  then it is duck!
+
+Operator-overloading: 
+del- deletes the object.

@@ -1,0 +1,25 @@
+Lambda Expression/ Anonymous Function-
+    A lambda function is a small anonymous function.
+    A lambda function can take any number of arguments, but can only have one expression.
+Create
+    lambda parameter : expression
+
+
+
+What are lambda function?
+Why are they used?
+    - One-time use also known as throw away function as they needed just once.
+    - Reduce code size - Body of lambda functions is written in a single line.
+
+How to write Anonymous function?
+    - lambda parameter: expression
+
+Lambda functions within user defined function
+    - def new_func(x):
+            return(lambda y: x+y)
+
+Using Anonymous functions within 
+  -  filter()
+        - filter the given iterable(lists, sets, etc) with the help of another function passed 
+  -  map()
+  -  reduce() - your task

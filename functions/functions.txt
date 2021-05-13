@@ -1,0 +1,36 @@
+Funtions:
+    A block of code 
+    which performs something 
+    and always returns something
+        - by default every function returns None
+    by using def keyword we can create our function
+
+why we need function:
+    - DRY:
+        Don't Repeat Yourself
+        Memory
+        Reuse our code
+
+Types of functions
+    - built-in : Python provided functions
+    - user-defined
+        - def
+        - lambda - syntactical sugar
+
+
+
+- User-Defined/Custom Funtion
+
+simple:
+- def f(): return
+- f()
+
+- Scope
+- global
+
+- parameter
+- default param
+
+- *args: This is for all the extra values in function/method
+    - tuple()
+- **kwargs: dict()

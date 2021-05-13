@@ -1,0 +1,51 @@
+Memory Management
+OOPS: Object Oriented Programming Approach 
+Reusablity of code.
+
+class ClassName():
+    pass
+
+obj1 = ClassName()
+obj2 = ClassName()
+... 
+
+
+4-pillars of OOP
+- Abstraction - var, method
+- Encapsulation- hinding some information about class/object
+- Inheritance - parent ----> child (orders)
+- Polymorphism -  Many-Form, super()
+
+
+
+
+class - Blueprint  for creating new Objects
+object - Instance of a class
+
+class: Human.
+
+object: Makku, Vijay, Marry
+
+constructor:
+    it takes parameters/args to construct the object
+    method __init__
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

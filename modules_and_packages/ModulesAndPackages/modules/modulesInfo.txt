@@ -1,0 +1,25 @@
+Module: 
+    - Modules refer to a file containing Python statements and definitions.
+    - A file containing Python code, for example: example.py, is called a module,
+        and its module name would be example.
+    - We use modules to break down large programs into small manageable and organized files.
+        Furthermore, modules provide reusability of code.
+    - We can define our most used functions in a module and import it, 
+        instead of copying their definitions into different programs.
+
+How to import modules in Python?
+    - import(keyword) - global
+    - from(keyword)- from location import ...
+    - Note: * imports everything
+Import with renaming
+    - as (keyword) - alias name
+
+
+
+if __name__ == "__main__":
+    ...
+
+
+What is Module?
+Why we need it?
+How to create a module?

@@ -1,0 +1,15 @@
+Inheritance: One class acquiring the property of another class.
+    - Simple_example 
+        - super()
+    - Single 
+    - Multiple
+    - Multi Level
+    - Hierarchical 
+    - Hybrid
+
+Overloading vs Overriding
+
+Overloading: Same function with different parameter.
+
+Overriding: Replacing or extending a method defined in the base class.
+

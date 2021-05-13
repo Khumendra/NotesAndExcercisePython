@@ -1,0 +1,25 @@
+lists []: Contains sequence of data surrounded by [].
+    - list(iterable)
+    - Built-in mutable(adding/removing/change) sequence.
+    - If no argument is given, It creates a new empty list.
+    - The argument must be an iterable if specified.
+    - Duplicates are allowed.
+    - Insertion order is preserved.
+    - Heterogeneous objects are allowed.
+    
+
+Accessing Items:
+    - slicing and indexing(positive and negative)
+List Unpacking:
+    - var, 
+    - *
+Looping Over List:
+    - for 
+Adding/Removing items from list:
+    - append(), extends(), insert()  
+    - pop(), remove()
+Finding Items:
+    - index(), count()
+sorting list items
+zip function
+

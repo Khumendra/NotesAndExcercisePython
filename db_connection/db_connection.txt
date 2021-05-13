@@ -1,0 +1,33 @@
+Python MySql:
+  - Python can be used in database applications.
+  - One of the most popular databases is MySQL.
+
+MySQL Database:
+  - We should have MySQL installed on our computer.
+  - https://www.mysql.com/downloads/.
+
+Install MySql Driver:
+  - Python needs a MySQL driver to access the MySQL database.
+  - pip install mysql-connector-python
+
+
+  python App ---- Db-Driver ---- MySql Server
+
+
+  Connection: 
+
+    
+    user = username
+    password = password
+    host= server/address
+    database=database
+
+course_detail= {
+                "_id" : ObjectId("5ff5c0b8f6cb7fd20eecf09d"),
+                "name" : "react native",
+                "price" : 12.0
+            }
+
+
+
+

@@ -1,0 +1,14 @@
+Today's 
+
+- if 
+- if__else 
+- if__elif__else
+
+
+conditionals in python 
+
+Nothing but a choices
+
+
+
+

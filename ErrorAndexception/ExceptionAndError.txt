@@ -1,0 +1,36 @@
+Exception (user's mistakes)
+    - We can make certain mistakes while writing a program that lead to errors when we try to run it.
+      A python program terminates as soon as it encounters an unhandled error.
+
+    These errors can be broadly classified into two classes:
+    1. Syntax errors 
+    2. Logical errors (Exceptions)
+    3. Runtime(User-Based Error)
+
+Exception Handling:
+    - Process of responding to exceptions in a custom way during the execution of program.
+
+process of exception Handling:
+    - Find Error - If we don't python will.
+    - Take Caution - try
+    - Fix Error - raise
+
+Important Terms: 
+    - try(keyword): risky code 
+    - except(keyword): execute when there is an exception.
+    - else(keyword): No exception? Run this code
+    - finally(keyword): Always run this code
+
+Syntax:
+    try:
+        # code that may cause exception
+    else:
+        # code to run when exception occurs
+
+Handling Specific Exception:
+
+Python try... finally
+
+
+
+print(dir(locals()['__builtins__']))

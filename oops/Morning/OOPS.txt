@@ -1,0 +1,94 @@
+OOPS: Object Oriented Programming.
+    - DRY (Don't Repeat yourself)
+    - Memory management
+    - Everything in python is Object
+
+
+create a class:
+class(keyword): A blueprint for creating an Object.
+    - use classes to create new Objects
+Object/Instance:  Implemetation of class
+
+
+class Calculator:
+    pass
+
+Object Instantiation
+calc = Calculator()
+
+constructor: 
+magic method
+- def __init__(self): 
+        pass
+destructor:
+    del(keyword): deletes the Object
+
+
+4- Pillars of OOPS:
+------------------
+1. Abstraction: 
+    - Act of Data Hiding.
+    - We can show only information and can hide the unnessary part
+
+2. Encapsulation: 
+    - The system of wrapping data and methods together 
+    - (vaiables + method)
+    - restrictions on accessing vaiables and methods directly.
+    
+    Access Modifires: limit access to the variables and methods of a class.
+    - public(default): Anywhere from the class 
+    - private (_): within the class and subclass
+    - protected (__): within the class
+
+3. Inheritance: 
+    - DRY 
+    - getting a property to one(parent) class to another(child) class
+    - Facility to reuse the code.
+    - base, parent, super | derived, child, subclass
+    Types:
+        - super(): used to call a method from the parent class
+        - Single Inheritance
+        - Multiple Inheritance
+        - Multi-level Inheritance
+        - Hierarchical Inheritance
+        - Hybrid Inheritance
+    
+
+4. Polymorphism:
+    - Human - Rohan- student-school, child-parent, driver-car,  
+    - Many Forms
+
+
+
+
+@staticmethod
+@classmethod
+
+instance vaiables
+instance method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

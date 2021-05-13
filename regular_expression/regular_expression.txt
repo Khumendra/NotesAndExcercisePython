@@ -1,0 +1,66 @@
+Regular Expressions(regex) (regexp):
+            Regular expressions are one of the powerful tool for matching patterns in text or string
+
+txt = "
+            My name is Mohan Singh I'm 21 year old.
+            I'live in Hyderabad. srinivasa colony - 24 road no 3.
+      "
+
+Expression that extracts the information.
+
+import re 
+    - re : it is collection of pre-defined function.
+
+match(): To rest the input string starts with specified or not 
+
+
+email = "
+            abc@gmail.com, 
+            abc#gmail.com,
+            abc@outlook.com,
+            xyz@outlook.com,
+            xyz#outlook.com,
+            xyz@gmail.com
+    "
+
+
+gmails = re.findall('\S+@\S+', required_string)
+print  (   *gmails  , sep='\n'  )
+
+1. extract all the correct gmail account
+2. extract all the correct outlook account
+
+import re
+required_string = 'manikanta@gmail.com nanu@yahoo.com prani@lookhot#.com'
+gmails = re.findall('\S+@gmail.com+', required_string)
+print(gmails)
+gmails = re.findall('\S+@gmail.com+', required_string)
+
+
+
+# You can also match
+# \b: Backspace
+"""
+        >>> print("Hello \bWorld!!!")
+        HelloWorld!!!
+"""
+# \f: Form Feed
+"""
+    >>> print("\f")
+    
+"""
+# \r: Carriage Return
+""" 
+        >>> a = "Hello \rThere EveryOne...."
+        >>> a
+        'Hello \rThere EveryOne....'
+        >>> print(a)
+        There EveryOne....
+"""
+
+
+
+# \t: Tab
+# \v: Vertical Tab
+
+# You may need to remove \r \n on Windows

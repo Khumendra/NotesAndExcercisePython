@@ -1,0 +1,33 @@
+Operators: 
+In programming Operators are special symbols that are used to perform operations on values and variables.
+
+
+1. Arithmetic Operator
+-------------------
++("join" + "string"), -, *, /, %, **, //
+
+2. Assignment Operator
+-------------------
+=, + -=, *=, /=, %=, 
+
+//=, **=, &=, |=, ^=, >>=, <<=
+
+3. Comparison/relational Operator
+-----------------------
+==, !=, >, <, >=, <=
+
+4. Logical Operator
+-------------------
+and, or, not
+
+5. Identity Operator
+------------------
+is, is not
+
+6. Membership Operator
+--------------------
+in, not in
+
+7. Bitwise Operator
+-----------------
+&, |, ^, ~, <<, >>

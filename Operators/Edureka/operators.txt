@@ -1,0 +1,12 @@
+Agenda:
+What is an Operator?
+    Operators are special symbols used to perform operations b/w 2 values and varibles.
+
+Types of Operators?
+- Arithmetic
+- Assignment
+- Comparison/ Relational
+- Logical
+- Identity
+- Membership
+- Bitwise

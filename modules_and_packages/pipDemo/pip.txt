@@ -1,0 +1,23 @@
+
+pip and pypi:(Python Package Index)
+    - pip install ....
+    https://packaging.python.org/discussions/pip-vs-easy-install/
+    https://pypi.org/project/pip/
+
+
+Virtual Environments and Packages: Isolated Environments for different application
+    - python3 -m venv tutorial-env
+    - virtualenv ...
+
+    - pip show 
+    - pip list
+    - pip freeze
+        - requirements.txt
+    - pip install ....==....
+    - pip uninstall ....
+
+
+activate the virtualenv:
+    venv\Scripts\activate.bat
+deactivate
+

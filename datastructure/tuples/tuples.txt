@@ -1,0 +1,11 @@
+tuples: Contains sequence of data surrounded by ().
+    - To create a empty tuple simply type ()
+    - To create a single element use , eg. ('a', ) otherwise it returns string type value.
+    - We can leave out the () and add , after it to make a tuple type.
+    - tuple(), ('a',)
+    - Built-in immutable(can not be changed) sequence.
+    - If no argument is given, the constructor returns an empty tuple.
+
+Accessing Data from tuple:
+Tuple Unpacking:
+Finding:

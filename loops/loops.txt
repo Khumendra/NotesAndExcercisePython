@@ -1,0 +1,21 @@
+Loops: iterate over a sequence of elements using the different variations of for loop.
+1. for loop.
+2. while loop.
+
+for loop: 
+- list
+- string 
+- break - 1, 2, 3b 
+- continue- 1, 2, 3c, 4, 5, 6, ...
+- range()
+- for...else loop
+- Nested loop
+- pass statement
+
+while loop:
+ - while loop
+ - infinite while loop
+ - break
+ - continue
+ - while...else
+ - pass

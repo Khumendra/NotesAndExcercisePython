@@ -1,0 +1,17 @@
+decorators: 
+    - assign as variable
+    - return function 
+    - pass function as an argument
+
+@decorator
+def fun():
+    pass
+
+
+decorators = decorator allow us to decorate a function, 
+
+Imagine you created a function
+
+def simple_func():
+    # do some stuff
+    return something

@@ -1,0 +1,4 @@
+Python “Virtual Environments” allow Python packages to be installed in an isolated location for a particular 
+application, rather than being installed globally.
+If you are looking to safely install global command line tools, see Installing stand alone command
+line tools.
