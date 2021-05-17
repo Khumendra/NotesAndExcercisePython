@@ -9,10 +9,12 @@ config = {
 }
 cnx = mysql.connector.connect(**config)
 
+# cursor
 my_cursor = cnx.cursor()
 query = "SHOW DATABASES"
 my_cursor.execute(query)
 
 print(*my_cursor, sep='\n')
+
 
 cnx.close()

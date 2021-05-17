@@ -1,0 +1,41 @@
+
+
+Iterables: Anything that we can loop over in python is called an Iterables.
+for eg:
+    [1, 2, 3]
+- In python an object which implements the __iter__() methods is called an Iterables.
+
+python Iterators: 
+    - Iterator in python is simply an object that can return data one at a time while iterating over it.
+    - For an object to be an iterator, it must implement two methods:
+            __iter__() --- iter()
+                __next__() --- next()
+did you know?
+- for loop internally use the while loop to iterate through sequeces.
+
+
+
+Python Generator:
+- A Generator is  an elegant way to create custom iterators in python that makes it really easy to work with iterator
+- class Even:
+    pass
+- function with yield(keyword)
+
+
+def even():
+    x = 0
+
+    x += 2
+    yield x
+
+    x += 2
+    yield x
+
+    x += 2
+    yield x
+
+
+difference b/w return and yield
+
+
+fibonacci Series: 0, 1, 1, 2, 3, 5, .....

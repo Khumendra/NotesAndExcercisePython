@@ -8,7 +8,7 @@ cnx = mysql.connector.connect(
 )
 
 # connection
-# print(cnx)
+print(cnx)
 if cnx:
     print("Connected Successfully!")
 
